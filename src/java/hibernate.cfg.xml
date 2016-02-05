@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost/marba</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">d3r3k</property>
+    <property name="connection.pool_size">10</property>
+    <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    <property name="show_sql">true</property>
+    <property name="hbm2ddl.auto">update</property>
+    
+    <mapping class="Modelo.Entidades.Usuario"/>
+    <mapping class="Modelo.Entidades.Persona"/>
+    <mapping class="Modelo.Entidades.Empleado"/>
+    <mapping class="Modelo.Entidades.Operacion"/>
+    <mapping class="Modelo.Entidades.CategoriaOp"/>
+    
+    <mapping class="Modelo.Entidades.Direccion"/>
+    
+    <mapping class="Modelo.Entidades.Empresa"/>
+    <mapping class="Modelo.Entidades.Sucursal"/>
+    <mapping class="Modelo.Entidades.Almacen"/>
+    <mapping class="Modelo.Entidades.Ubicacion"/>
+    <mapping class="Modelo.Entidades.DatosFiscales"/>
+    <mapping class="Modelo.Entidades.Medio"/>
+    <mapping class="Modelo.Entidades.Cliente"/>
+    <mapping class="Modelo.Entidades.Agente"/>
+    <mapping class="Modelo.Entidades.Ruta"/>
+    <mapping class="Modelo.Entidades.Categoria"/>
+    <mapping class="Modelo.Entidades.Contrato"/>
+    <mapping class="Modelo.Entidades.CentroDeTrabajo"/>
+    <mapping class="Modelo.Entidades.Subcategoria"/>
+    <mapping class="Modelo.Entidades.Unidad"/>
+    <mapping class="Modelo.Entidades.Marca"/>
+    <mapping class="Modelo.Entidades.Serie"/>
+    <mapping class="Modelo.Entidades.TipoMov"/>
+    <mapping class="Modelo.Entidades.Proveedor"/>
+    <mapping class="Modelo.Entidades.Producto"/>
+    <mapping class="Modelo.Entidades.Cabecera"/>
+    <mapping class="Modelo.Entidades.Detalle"/>
+    <mapping class="Modelo.Entidades.Existencia"/>
+    <mapping class="Modelo.Entidades.Equipo"/>
+    <mapping class="Modelo.Entidades.Servicio"/>
+    <mapping class="Modelo.Entidades.ProductosCt"/>
+    <mapping class="Modelo.Entidades.Plaza"/>
+    <mapping class="Modelo.Entidades.Utilerias"/>
+    <mapping class="Modelo.Entidades.UnidadProducto"/>
+    <mapping class="Modelo.Entidades.MovimientoExtraordinario"/>
+    <mapping class="Modelo.Entidades.Nomina"/>
+    <mapping class="Modelo.Entidades.Familiar"/>
+    <mapping class="Modelo.Entidades.PersonaMedio"/>
+    <mapping class="Modelo.Entidades.Documento"/>
+    <mapping class="Modelo.Entidades.DetalleNomina"/>
+    <mapping class="Modelo.Entidades.CostoProducto"/>
+    <mapping class="Modelo.Entidades.PrecioProducto"/>
+    <mapping class="Modelo.Entidades.ContactoContrato"/>
+    <mapping class="Modelo.Entidades.ContactoCT"/>
+    <mapping class="Modelo.Entidades.ContactoCliente"/>
+    <mapping class="Modelo.Entidades.ContactoProveedor"/>
+    <mapping class="Modelo.Entidades.HistorialIMSS"/>
+    <mapping class="Modelo.Entidades.Finiquito"/>
+    <mapping class="Modelo.Entidades.Vacaciones"/>
+    <mapping class="Modelo.Entidades.DispersionBanorte"/>
+    <mapping class="Modelo.Entidades.ContratoTrabajo"/>
+    <!--Entidades agregadas cambios Germain-->
+    <mapping class="Modelo.Entidades.Abono"/>
+    <mapping class="Modelo.Entidades.Cargo"/>
+    <mapping class="Modelo.Entidades.Chequera"/>
+    <mapping class="Modelo.Entidades.Movimientos"/>
+    <mapping class="Modelo.Entidades.Aguinaldo"/>
+    <!--<mapping class="Modelo.Entidades.Contactos"/>-->
+    
+    <mapping class="Modelo.Entidades.Catalogos.Estado"/>
+    <mapping class="Modelo.Entidades.Catalogos.Municipio"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoMedio"/>
+    <mapping class="Modelo.Entidades.Catalogos.Titulo"/>
+    <mapping class="Modelo.Entidades.Catalogos.Civil"/>
+    <mapping class="Modelo.Entidades.Catalogos.GpoSanguineo"/>    
+    <mapping class="Modelo.Entidades.Catalogos.PerPagos"/>
+    <mapping class="Modelo.Entidades.Catalogos.Puestos"/>
+    <mapping class="Modelo.Entidades.Catalogos.PeryDed"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoIncidencia"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoNomina"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoActivo"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoCambio"/>
+    <mapping class="Modelo.Entidades.Catalogos.Quincena"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoCambioPyD"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoFamiliar"/>
+    <mapping class="Modelo.Entidades.Catalogos.CategoriaDoc"/>
+    <mapping class="Modelo.Entidades.Catalogos.TipoDocumento"/>
+    <mapping class="Modelo.Entidades.Catalogos.FechasEntrega"/>
+    <mapping class="Modelo.Entidades.Catalogos.Banco"/>
+    <mapping class="Modelo.Entidades.Catalogos.CuentasTelecomm"/>
+
+  </session-factory>
+</hibernate-configuration>

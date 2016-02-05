@@ -1,0 +1,16 @@
+@font-face	{
+	font-family: "quicksand";
+	src: url(fuentes/Quicksand-Regular.otf);
+}
+h2{
+	font-family: "quicksand";
+        font-size: 20px;
+}
+h3{
+	font-family: "quicksand";
+        font-size: 11px;
+}
+#saldo	{
+	background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+}
