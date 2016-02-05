@@ -1044,6 +1044,7 @@ public class TimbradoMod {
     }
 
     private HashMap GeneraTimbradoAguinaldos(HashMap datos) {
+		//cambio de prueba para git
         File timb = null;
         
         int idsuc = Integer.parseInt(datos.get("rpsel").toString());

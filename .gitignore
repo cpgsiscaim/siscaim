@@ -1,0 +1,5 @@
+# Ignores
+build.xml
+build/
+dist/
+nbproject/
